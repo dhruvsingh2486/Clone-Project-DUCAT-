@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ducat/Online Registeration</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+</head>
+<style>
+        .footer_container {
+      width: 100%;
+      background-color: rgb(12, 34, 67);
+      height: 440px;
+      color: white;
+    }
+    footer {
+      padding-top: 40px;
+    }
+    .links {
+      display: flex;
+      margin-left: 80px;
+      margin-right: 60px;
+      gap: 1%;
+    }
+    ul li {
+      list-style-type: none;
+      margin-bottom: 7px;
+    }
+    .heading {
+      font-weight: bold;
+      font-size: 20px;
+      padding-left: 34px;
+    }
+    .col1 {
+      width: 20%;
+    
+    }
+    .col4 {
+      width: 35%;
+    }
+    .social-icons {
+      padding-left: 10px;
+      font-size: 23px;
+      color: rgb(250, 250, 10);
+    }
+    .footer_input {
+      margin-top: 10px;
+      height: 35px;
+      width: 340px;
+      border-radius: 8px;
+      border: 0;
+      padding-left: 10px;
+      font-size: 16px;
+    }
+    .joib_btn {
+      height: 35px;
+      width: 115px;
+      margin-top: 25px;
+      border-radius: 10px;
+      background-color: rgb(204, 232, 255);
+      font-weight: bolder;
+      font-size: 16px;
+      border: 0;
+    }
+    ul li a {
+      color: white;
+      font-size: 15px;
+      text-decoration: none;
+      
+      
+    }
+    .col3{
+      width: 20%;
+    }
+    .col5 {
+      width: 150px;
+    }
+
+    .copyright{
+      text-align: center;
+      margin-top: 30px;
+    }
+</style>
+<body style="background-color: #5e6c82;">
+    <nav
+    class="container-fluid navbar navbar-expand-lg py-4 my_navbar bg-white"
+  >
+    <div style="width: 80%; margin-left: 10%" class="d-flex">
+      <img style="margin-top: 10px;" height="50px"  src="/assets/logo.png" alt="" />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav gap-3 h7 ms-4 pt-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/Ducat.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutUs.html">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Courses
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Java</a></li>
+              <li><a class="dropdown-item" href="#">.NET</a></li>
+              <li><a class="dropdown-item" href="#">Software Testing</a></li>
+              <li><a class="dropdown-item" href="#">Web Designing</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Programming Languages</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Cloud Computing</a></li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  >Mobile Application Development</a
+                >
+              </li>
+              <li><a class="dropdown-item" href="#">CAD Training</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Network & security</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Digital Marheting</a></li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  >MIS - Advanced Excel - BI Tools</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Multimedia Animations</a>
+              </li>
+              <li><a class="dropdown-item" href="#">ERP</a></li>
+              <li>
+                <a class="dropdown-item" href="#">INdustrial Training</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/8.contact forms/registerationform.html">Online Registeration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Certificates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Placements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/OurFaculties.html">Our Faculties</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Contact Us
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="exampleModalLabel">Get In Touch With Us</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <div class="d-flex">
+        <input  style="border: none; outline: none;" type="text" placeholder="First Name">
+        <input style="border: none; outline: none;" type="text" placeholder="Last Name">
+      </div>
+      <input style="border: none; outline: none;" type="email" placeholder="Email">
+      <input style="border: none; outline: none;" type="number" placeholder="Phone">
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div>
+</div>
+</div>
+  </nav>
+
+    <table style="background-color: whitesmoke; width: 100%; height: 500px;" border="0" align="center">
+      
+        <tr>
+       <td>
+        <div>
+        <table style="background-color: whitesmoke; margin-top: 30px; margin-bottom: 40px; height: 400px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; " border="0" align="center">
+            <tr>
+                <td colspan="2">
+                    <div style="text-align: center; margin-top: 10px; margin-bottom: 10px; font-size: 34px;">Online Registeration</div>
+                    <div style="margin-bottom: 12px; margin-left: 30px; margin-right: 30px; font-size: 16px; color: rgb(155, 155, 155); text-align: center;">Creat your account. It's free and only takes a minute.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input style="margin-left: 30px; height: 35px; width: 543px; margin-top: 10px;" type="text" placeholder="Full Name">
+                </td>
+               
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <input style="margin-left: 30px; height: 35px; width: 543px; margin-top: 10px; " type="email" placeholder="Email">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input style="margin-left: 30px; height: 35px; width: 543px;margin-top: 10px;" type="password" placeholder="password">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input style="margin-left: 30px; height: 35px; width: 543px;margin-top: 10px; margin-bottom: 20px;" type="password" placeholder="Confirm password">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input style="margin-left: 30px; margin-top: 10px; margin-bottom: 20px;" type="checkbox"> I accept the <span style="color: rgb(2, 165, 2);">Terms of Use</span> & <span style="color: rgb(2, 165, 2);">Privacy Policy.</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div style="text-align: center; " >
+                        <button style="height: 35px; width: 358px; font-weight: bold; color: white; background-color: green; border: 0; margin-bottom: 30px; margin-top: 10px; cursor: pointer;" >Register Now</button>
+                    </div>
+                </td>
+            </tr>
+         </table>
+    </div>
+    </td>
+    </tr>
+
+
+    <tr>
+        <td>
+            <div style="color: white; text-align: center; margin-top: -45px;">Already have an account? <a style="color: white;" href="#">Sign in</a></div>
+        </td>
+    </tr>
+    </table>
+
+
+       <!-- footer sec -->
+<div class="footer_container">
+    <div >
+    <footer >
+        <div class="links">
+        <div class="col5" >
+            <p style="margin-left: 10px; font-weight: bold; font-size: 18px;" >Follow Us! </p>
+                
+                <a  class="social-icons" href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a class="social-icons" href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a class="social-icons" href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        
+            
+            
+         
+            
+                <div class="col1" >
+                   <p class="heading"> Quick Links </p>
+                    <ul >
+                    <li><a class="anchor"  href="">Java</a> </li>
+                    <li><a class="anchor"  href="">.NET</a> </li>
+                    <li><a class="anchor" href="">Python</a> </li>
+                    <li><a class="anchor" href="">Software Testing</a> </li>
+                    <li><a class="anchor" href="">Web Designing - Full Stack Development</a> </li>
+                    <li><a class="anchor" href="">Programming Languages</a> </li>
+                </ul>
+                </div>
+                <div class="col2" >
+                    <p class="heading">Top Courses </p>
+                    <ul>
+                    <li><a href="">MIS</a> </li>
+                    <li><a href="">DIGITAL MARKETING</a> </li>
+                    <li><a href="">JAVA EXPERT</a> </li>
+                    <li><a href="">.NET FULLSTACK</a> </li>
+                </ul>
+                </div>
+            
+                <div class="col3">
+                   <p  class="heading"> Policies </p>
+                    <ul>
+                    <li><a href="">Privacy Policy</a> </li>
+                    <li><a href="">Refund Policy</a> </li>
+                    <li><a href="">Terms and Conditions</a> </li>
+                   
+                </ul>
+                </div>
+                <div class="col4" >
+                   <p   class="heading"> Connect </p>
+                    <ul>
+                    <li>Join our mailing list and get exclusive discounts, early product launch access and more.</li>
+                    <li><a href=""><input class="footer_input" type="email" placeholder="Email address"></a> </li>
+                    <li> <button class="joib_btn">Join</button> </li>
+                    
+                </ul>
+                </div>
+            </div>
+                
+                
+  
+            </div>
+            <div class="copyright">copyright © 2024 Ducat India, All rights Reserved</div>
+        
+    </footer>
+  </div>
+  </div>
+  
+      <!-- footer sec end -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
